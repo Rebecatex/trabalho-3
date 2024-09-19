@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+    <title>Monitoramento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Monitoramento de Salas - Bloco 3</h1>
+
+<h2>Descrição</h2>
+<div class="description">
+    <div class="description">
+        <i class="fas fa-wrench" style="color: rgb(237, 17, 167);" alt="Ícone de Manutenção"></i>
+        <span>Manutenção</span>
+    </div>
+    <div class="legenda-ocupada">
+        <i class="fas fa-lock" style="color: rgb(149, 17, 17);" alt="Ícone de Ocupada"></i>
+        <span>Ocupada</span>
+    </div>
+    <div class="legenda-livre">
+        <i class="fas fa-unlock" style="color: green;" alt="Ícone de Livre"></i>
+        <span>Livre</span>
+    </div>
+</div>
+
+<h2>Salas de Aula:</h2>
+<div class="room" data-status="livre">
+    <span class="room-name">Sala de Aula 1</span>
+    <div class="status">
+        <i class="fas fa-unlock" alt="livre"></i>
+    </div>
+</div>
+
+<div class="room" data-status="livre">
+    <span class="room-name">Sala de Aula 2</span>
+    <div class="status">
+        <i class="fas fa-unlock" alt="livre"></i>
+    </div>
+</div>
+
+<div class="room" data-status="livre">
+    <span class="room-name">Sala de Aula 3</span>
+    <div class="status">
+        <i class="fas fa-unlock" alt="livre"></i>
+    </div>
+</div>
+
+<div class="room" data-status="ocupado">
+    <span class="room-name">Sala de Aula 4</span>
+    <div class="status">
+        <i class="fas fa-lock" alt="ocupado"></i>
+    </div>
+</div>
+
+<div class="room" data-status="ocupado">
+    <span class="room-name">Sala de Aula 5</span>
+    <div class="status">
+        <i class="fas fa-lock" alt="ocupado"></i>
+    </div>
+</div>
+
+<h2>Laboratórios</h2>
+<div class="room" data-status="ocupado">
+    <span class="room-name">Laboratório de Informática 1</span>
+    <div class="status">
+        <i class="fas fa-lock" alt="ocupado"></i>
+    </div>
+</div>
+
+<div class="room" data-status="ocupado">
+    <span class="room-name">Laboratório de Informática 2</span>
+    <div class="status">
+        <i class="fas fa-lock" alt="ocupado"></i>
+    </div>
+</div>
+
+<div class="room" data-status="livre">
+    <span class="room-name">Laboratório de Informática 3</span>
+    <div class="status">
+        <i class="fas fa-unlock" alt="livre"></i>
+    </div>
+</div>
+
+<div class="room" data-status="manutencao">
+    <span class="room-name">Laboratório de Hardware</span>
+    <div class="status">
+        <i class="fas fa-wrench" alt="manutenção"></i>
+    </div>
+</div>
+
+<div class="room" data-status="ocupado">
+    <span class="room-name">Laboratório de Redes 1</span>
+    <div class="status">
+        <i class="fas fa-lock" alt="ocupado"></i>
+    </div>
+</div>
+
+<h2>Outras Salas</h2>
+<div class="room" data-status="livre">
+    <span class="room-name">Sala de Professores</span>
+    <div class="status">
+        <i class="fas fa-unlock" alt="livre"></i>
+    </div>
+</div>
+
+<div class="room" data-status="ocupado">
+    <span class="room-name">Coordenação</span>
+    <div class="status">
+        <i class="fas fa-lock" alt="ocupado"></i>
+    </div>
+</div>
+<footer>&copy;Este projeto é ilustrativo. Este código foi desenvolvido como atividade da disciplina de Programação Web 1
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
